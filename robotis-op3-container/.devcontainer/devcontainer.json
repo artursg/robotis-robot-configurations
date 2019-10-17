@@ -1,0 +1,10 @@
+{
+	"name": "Robotis OP3 robot container",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+	],
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": []
+}
