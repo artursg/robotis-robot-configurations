@@ -24,7 +24,8 @@
 	// "appPort": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	//"postCreateCommand": "bash ~/bash_scripts/install-dev-tools.sh",
+	"postCreateCommand": "bash /usr/local/bin/install-dev-tools.sh",
 
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": []

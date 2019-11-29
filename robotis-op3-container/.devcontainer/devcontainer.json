@@ -6,5 +6,6 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
+	"postCreateCommand": "bash /usr/local/bin/install-dev-tools.sh",
 	"extensions": []
 }
